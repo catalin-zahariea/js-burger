@@ -13,6 +13,7 @@ var btnPriceCalculate = document.getElementById('btn-price-calculate');
 
 function discountCode () {
 
+    // I used a random text generator for this part.
     var discountCode = [
         'DKizoMqH',
         'BPqvxxPo',
