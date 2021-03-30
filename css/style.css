@@ -124,12 +124,14 @@ h2 {
     background-color: #FDF4E4;
 }
 
-.btn-price {
+.buttons {
     justify-content: center;
 }
 
-#btn-price-calculate {
+#btn-price-calculate,
+#btn-cancel {
     padding: 15px 30px;
+    margin: 0 10px;
     border-radius: 10px;
     background-color: #F3BF5A;
     font-weight: 700;

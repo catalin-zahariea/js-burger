@@ -2,6 +2,7 @@
 // Variables
 
 var btnPriceCalculate = document.getElementById('btn-price-calculate');
+var btnCancel = document.getElementById('btn-cancel');
 
 
 // ----------------------------------------------------------------
@@ -172,4 +173,12 @@ btnPriceCalculate.addEventListener('click', function () {
 
     document.getElementById('price-output').innerHTML = '€ ' + totalPrice;
 
+});
+
+
+// ----------------------------------------------------------------
+// Function | btnCancel | Function
+
+btnCancel.addEventListener('click', function () {
+    window.location.reload();
 });
