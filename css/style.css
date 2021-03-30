@@ -1,0 +1,114 @@
+/* -------------------------------------------------- */
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* -------------------------------------------------- */
+/* COMMON */
+
+header {
+    height: 100px;
+    background-color: #F3BF5A;
+}
+
+footer {
+    height: 100px;
+    background-color: #C1415B;
+}
+
+main {
+    height: calc(100vh - 200px);
+    overflow-y: scroll;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+.flex-container {
+    margin: auto;
+    max-width: 900px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.wrap-container {
+    flex-wrap: wrap;
+}
+
+footer .flex-container {
+    justify-content: space-between;
+}
+
+/* -------------------------------------------------- */
+/* FONTS */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+footer {
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+h1 {
+    color: #000;
+    font-weight: 900;
+}
+
+/* -------------------------------------------------- */
+/* MAIN */
+
+.ingredient-item {
+    width: 50%;
+}
+
+.ingredient-item-container {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.ingredient-item-container label {
+    padding: 0 20px;
+}
+
+.ingredient-item img {
+    max-width: 50px;
+}
+
+.discount label {
+    padding-right: 20px;
+    font-weight: 500;
+}
+
+#discount-code {
+    flex-grow: 1;
+    height: 30px;
+    outline: none;
+    border: none;
+    background-color: #FDF4E4;
+}
+
+.btn-price {
+    justify-content: center;
+}
+
+#btn-price-calculate {
+    padding: 15px 30px;
+    border-radius: 10px;
+    background-color: #F3BF5A;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: lowercase;
+    border: none;
+}
