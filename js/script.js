@@ -5,6 +5,7 @@ var btnPriceCalculate = document.getElementById('btn-price-calculate');
 var btnCancel = document.getElementById('btn-cancel');
 
 
+
 // ----------------------------------------------------------------
 // Discount Code Array
 // I will be using a custom Function that includes an array with my discount
@@ -137,6 +138,7 @@ btnPriceCalculate.addEventListener('click', function () {
     var discountAmount = 10;
     var ingredientItems = document.getElementsByClassName('ingredient-check');
     var discountCodeInput = document.getElementById('discount-code').value;
+    var userName = document.getElementById('user-name').value;
 
     // ________________________________
     // Calculate totalPrice with a FOR Loop that checks whether or not additional extras
@@ -172,6 +174,11 @@ btnPriceCalculate.addEventListener('click', function () {
     // Print totalPrice
 
     document.getElementById('price-output').innerHTML = '€ ' + totalPrice;
+
+    // ________________________________
+    // Print userName
+
+    document.getElementById('user-name').value = 'Il panino di ' + userName;
 
 });
 

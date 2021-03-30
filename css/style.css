@@ -93,6 +93,21 @@ h2 {
 /* -------------------------------------------------- */
 /* MAIN */
 
+#user-name {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 0;
+    height: 30px;
+    width: 100%;
+    font-size: 24px;
+}
+
+#user-name::placeholder {
+    font-weight: 300;
+    font-size: 24px;
+}
+
 .ingredient-item {
     width: 50%;
 }
