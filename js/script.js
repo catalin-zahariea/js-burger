@@ -141,6 +141,9 @@ btnPriceCalculate.addEventListener('click', function () {
     var userName = document.getElementById('user-name').value;
 
     // ________________________________
+    // userName fix into Human Form
+
+    // ________________________________
     // Calculate totalPrice with a FOR Loop that checks whether or not additional extras
     // were selected and adds their price to the totalPrice.
 
@@ -177,8 +180,8 @@ btnPriceCalculate.addEventListener('click', function () {
 
     // ________________________________
     // Print userName
-
-    document.getElementById('user-name').value = 'Il panino di ' + userName;
+    document.getElementById('user-name').classList.add('hidden');
+    document.getElementById('user-name-output').innerHTML = 'Il panino di ' + userName;
 
 });
 
