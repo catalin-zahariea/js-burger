@@ -178,6 +178,8 @@ btnPriceCalculate.addEventListener('click', function () {
 
 // ----------------------------------------------------------------
 // Function | btnCancel | Function
+//
+// A page reload function that resets all inputs and totalPrice print.
 
 btnCancel.addEventListener('click', function () {
     window.location.reload();
