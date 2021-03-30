@@ -16,8 +16,7 @@ btnPriceCalculate.addEventListener('click', function () {
 
     var totalPrice = 50;
     var ingredientItems = document.getElementsByClassName('ingredient-check');
-
-    console.log(ingredientItems);
+    var discountCode = document.getElementsByName('discount-code').values;
 
     // ________________________________
     // Calculate totalPrice with a FOR Loop that checks whether or not additional extras
@@ -38,7 +37,12 @@ btnPriceCalculate.addEventListener('click', function () {
             totalPrice += ingredientItemPrice;
         }
 
-    } 
+    }
+
+    // ________________________________
+    // Subtract from totalPrice the discount by checking the discount code input
+    // by the user.
+
 
     // ________________________________
     // Print totalPrice
