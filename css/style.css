@@ -15,9 +15,17 @@ header {
     background-color: #F3BF5A;
 }
 
+header .flex-container {
+    height: 100px;
+}
+
 footer {
     height: 100px;
     background-color: #C1415B;
+}
+
+footer .flex-container {
+    height: 100px;
 }
 
 main {
@@ -44,7 +52,7 @@ main {
 }
 
 footer .flex-container {
-    justify-content: flex-end;
+    justify-content: space-between;
 }
 
 /* -------------------------------------------------- */
@@ -128,4 +136,9 @@ h2 {
     font-size: 18px;
     text-transform: lowercase;
     border: none;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-weight: 700;
 }
