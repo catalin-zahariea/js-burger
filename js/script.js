@@ -17,6 +17,7 @@ function discountCode () {
 
     // I used a random text generator for this part.
     var discountCode = [
+        'scontone',
         'DKizoMqH',
         'BPqvxxPo',
         'ZIEwrzfI',

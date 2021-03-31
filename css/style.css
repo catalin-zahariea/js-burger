@@ -94,6 +94,16 @@ h2 {
     font-size: 21px;
 }
 
+.item-price {
+    font-size: 14px;
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+.ingredient-item-container label {
+    text-transform: uppercase;
+}
+
 /* -------------------------------------------------- */
 /* MAIN */
 
