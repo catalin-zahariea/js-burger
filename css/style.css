@@ -76,6 +76,7 @@ footer {
 #price-output {
     font-size: 36px;
     padding-left: 20px;
+    text-align: right;
 }
 
 h1 {
@@ -102,6 +103,12 @@ h2 {
 
 .ingredient-item-container label {
     text-transform: uppercase;
+}
+
+#discount-check-output {
+    font-size: 12px;
+    font-weight: 300;
+    text-align: right;
 }
 
 /* -------------------------------------------------- */

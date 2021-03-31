@@ -172,10 +172,12 @@ btnPriceCalculate.addEventListener('click', function () {
     if ( discountCode().includes(discountCodeInput) == true ) {
 
         totalPrice -= discountAmount;
+        document.getElementById('discount-check-output').innerHTML = `Sconto di €${discountAmount} applicato!`
     }
 
     // ________________________________
     // Print totalPrice
+
 
     document.getElementById('price-output').innerHTML = '€ ' + totalPrice;
 
